@@ -28,14 +28,6 @@
 
 
 
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: #0A2C1B;
-}
-
 nav {
     display: flex;
     width: 100vw;
@@ -65,7 +57,7 @@ nav li {
 }
 
 nav a {
-    color: chocolate                                                        ;
+    color: chocolate;
     font-size: larger;
     text-decoration: none;
     position: sticky;
@@ -139,11 +131,7 @@ nav a:hover{
     justify-content: center;
 }
 
-body{
-    background-color: #f8f9fa;
-    padding: 0px;
-    margin: 0px;
-}
+
 
 .col-md-4.box {
     width: 100vh;
@@ -180,13 +168,13 @@ body{
 }
 
 .food-btn{
-width: 460px;
-font-size: smaller;
-padding: 6px;
-color: #e6e1c1;
-border: 2px solid #e6e1c1;
-background-color: #f0f8ff00;
-transition: 0.3s;
+    width: 460px;
+    font-size: smaller;
+    padding: 6px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color: #f0f8ff00;
+    transition: 0.3s;
 }
 
 
@@ -423,8 +411,8 @@ food.html body{
     color: #e6e1c1;
     width: auto;
     overflow: hidden;
-    min-height: 21vh;
-    max-height: 21vh;
+    min-height: 15vh;
+    max-height: 19vh;
     transition: max-height 2s ease-in-out;
     overflow: hidden;
 
