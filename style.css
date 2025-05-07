@@ -1,0 +1,755 @@
+/* colors   */
+/* global */
+/* link format */
+
+/* primary green #e2a00d*/
+.bg-col1{
+    background-color: #0a2c1b!important;
+}
+/* seccondary olive */
+.bg-col2{
+    background-color: #e6e1c1!important;
+}
+
+/*full height */
+.full-height{
+    height: 100%!important;
+}
+
+.align-center-text{
+    text-align: center;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0A2C1B;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: #0a2c1b;
+    z-index: 1;
+    
+}
+
+nav ul {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+
+}
+
+nav li {
+    padding: 7px;
+    list-style: none;
+    position: sticky;
+    margin: 1px 11px;
+}
+
+nav a {
+    color: chocolate                                                        ;
+    font-size: larger;
+    text-decoration: none;
+    position: sticky;
+
+}
+
+nav a:hover{
+    border-top: 2px solid;
+    border-bottom: 2px solid;}
+
+
+
+    /* footer */
+    footer {
+        background-color: #0a2c1b;
+        border-top: 6px solid chocolate;
+        color: chocolate;
+        height: 5vh;
+        padding: 0;
+        margin: 0;
+    }
+
+#home:hover {
+    background-size: cover;
+    font-size: large;
+    align-items: center;
+
+}
+
+#food:hover{
+    font-size: large;
+    text-align: center;
+}
+#food:hover + .homedrop {
+    display: inline-flex;
+}
+
+.homedrop {
+    display: none;
+    position: absolute;
+    background-color: #e6e1c1;
+    padding: 10px;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#drinks:hover{
+    font-size: large;
+    vertical-align: middle;
+;
+
+
+}
+
+#contact:hover{
+    font-size: large;
+ ;
+}
+
+
+
+.hero{
+    background:url("Hero1.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #f8f9fa;
+    padding: 0px;
+    margin: 0px;
+}
+
+.col-md-4.box {
+    width: 100vh;
+}
+
+.Welcome{   
+    height: 100vh;
+    width: auto;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 13%;
+
+    margin: 0px;
+}
+
+
+
+.feature Drinks {
+    background-image: url("drinks.png") no-repeat center center fixed;
+
+}
+
+                                                                                                            
+
+.Welcome{
+    background-color:#0A2C1B;
+    border-top:solid 16px chocolate;
+    border-bottom: solid 16px chocolate;
+    color: #e6e1c1;
+}
+
+.btns {
+    display: inline-grid;
+}
+
+.food-btn{
+width: 460px;
+font-size: smaller;
+padding: 6px;
+color: #e6e1c1;
+border: 2px solid #e6e1c1;
+background-color: #f0f8ff00;
+transition: 0.3s;
+}
+
+
+.food-btn:hover{
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    font-size: smaller;
+    border-radius: 369px 369px 0px 0px;
+    transition: 0.3s;
+}
+
+.drinks-btn{
+    width: 460px;
+    font-size: smaller;
+    padding: 6px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color: #f0f8ff00;
+    transition: 0.3s;
+    }
+    
+    
+    .drinks-btn:hover{
+        background-color: #e6e1c1;
+        color: #0A2C1B;
+        font-size: smaller;
+        border-radius:  0px 0px 369px 369px;
+        transition: 0.3s;
+    }
+.video-container{
+    display:block
+}
+.video-title{
+        padding: 20px;
+        font-size: 4rem;
+    }
+    
+.video-text {
+    padding: 3%;
+    vertical-align: middle;
+    display: inline-grid;
+    font-size: 1.5em;
+    text-align: center;
+}
+/* .col-lg-6.video-text {
+    padding: 4%;
+    margin: 20px 0 0 0px;
+} */
+.video-text h2{
+    font-size: 3rem;
+
+
+}
+
+.vid {
+    padding: 41px;
+    margin: 0px;
+    float: right;
+    width: 59%;
+}
+
+
+.row.justify-content-center.video-btns {
+    align-items: center;
+    display: grid;
+    border-bottom: 6px solid chocolate;
+}
+
+
+.video-btns .btns {
+    
+        font-size: xx-large;
+        display: flex;
+}
+
+.video-btns .btns .food-btn{
+    border: chocolate;
+  
+}
+
+
+.video-btns .btns .food-btn{
+    border: chocolate;
+    background-color: #0a2c1b;
+  
+}
+
+.video-btns .btns .food-btn:hover{
+    border: #0a2c1b;
+    background-color:chocolate;     
+    border-radius: 369px 0px 0px 0px ;
+}
+
+
+.video-btns .btns .drinks-btn{
+    border: chocolate;
+    background-color: #0a2c1b;
+  
+}
+
+.video-btns .btns .drinks-btn:hover{
+    border: #0a2c1b;
+    background-color:chocolate;
+    border-radius: 0px 369px 0px 0px ;
+  
+}
+
+
+
+.contact-form {
+    background-color: #0A2C1B
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: left;
+    
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:  1px solid chocolate;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #cfd1d000;
+    color: #e6e1c1;
+    filter: drop-shadow(0px);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: chocolate;
+    box-shadow: 0 0 5px rgba(210, 105, 30, 0.5);
+}
+
+.contact-form button {
+    background-color: #0A2C1B;
+    color: #e6e1c1;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: chocolate;
+    color: #ffffff;
+}
+
+.contact-form tr td table  {
+    background-color: aquamarine;
+}
+
+/*PAGE 2 Food and drink  */
+food.html body{
+    background-color: #0A2C1B;
+    padding: 0px;
+    margin: 0px;
+}
+.hero2{
+    background:url("Hero2.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    padding: 45px;
+    margin:0px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.box1 a{
+    text-decoration: none;
+    color:chocolate;
+
+}
+
+.box2{
+    background-color: #e6e1c1;
+    box-shadow: -1px -6px 16px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid;
+    padding: 45px;
+    margin:0px;
+    text-align: center;
+    
+}
+
+.box2 a{
+    text-decoration: none;
+    color:chocolate;
+
+}
+
+
+.box3{
+    background-color: #ffffff;
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    padding: 45px;
+    margin:0px;
+    text-align: center;
+    
+}
+
+.box3 a{
+    text-decoration: none;
+    color:chocolate;
+
+}
+
+.food-section{
+    justify-content: center;
+    align-items: center;
+    padding: 38px;
+    margin: 0px;
+    background-color: #0A2C1B;
+    color: #e6e1c1;
+    width: auto;
+    overflow: hidden;
+    min-height: 35vh;
+    max-height: 22vh;
+    transition: max-height 2s ease-in-out;
+    overflow: hidden;
+
+}
+
+.food-section h1{
+    color: #e6e1c1;
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    margin: 46px;
+    
+}
+
+
+
+.food-section:hover {
+    max-height: 11880vh;
+    transition: max-height 2s ease-in-out;
+}
+
+
+.Foodtxt{
+    text-align: center;
+}
+
+td,th {
+    border: 1px solid;
+}
+                                                /* Starters table */
+.Starters h2,p{
+    text-align: center;
+
+}
+.Starters-table{
+    margin: auto;
+}
+
+.Starters-table th,td{
+    border: 1px solid;
+}
+
+.Starters-table td{
+    border: 1px solid;
+}
+
+.Meals h2,p{
+     text-align: center;
+   
+}
+
+.Meals-table{
+    margin: auto;
+    
+}
+.Meals-table th,td{
+    border: 1px solid;
+}
+
+.Meals-table td{
+    border: 1px solid;
+}
+                                                                        /* drinks section */
+#drink-section{
+    display: flex;
+    max-height: 17vh;
+    min-height: 35vh;
+    overflow: hidden;
+    padding: 13px;
+    margin: 0px;
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    transition: max-height 2s ease-in-out;
+
+}
+
+#drink-section h1{
+    color: #0A2C1B;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 43px;
+    
+}
+
+#drink-section h2{
+    text-align: center;
+    margin: 19px;
+}
+#drink-section:hover{
+    max-height: 11880vh;
+    overflow: hidden;
+    padding: 13px;
+    margin: 0px;
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    transition: max-height 2s ease-in-out;
+}
+
+
+                                                                  /* contact button */
+.contact-btn{
+    width: 460px;
+    font-size: smaller;
+    padding: 6px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color: #0a2c1b;
+    transition: 0.3s;
+}
+   .contact-btn a{
+    text-decoration: none;
+    color: chocolate;
+   }
+
+   .contact-btn:hover{
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    font-size: smaller;
+    border-radius: 0px 0px 369px 369px;
+    transition: 0.3s;
+    padding: 5px;
+   }
+
+.col-lg.\31 .Drinktxt :hover{
+    height: 99vh;
+    transition: height 2s ease-in-out;
+}
+
+
+.call-to-action  .text-center{
+    background-color: #0A2C1B;
+    color: #e6e1c1;
+    width: 100vw;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 6px solid chocolate;
+}
+
+
+                                /* contact form */
+
+
+                                
+
+.container.form {
+    padding: 3%;
+    background-color: #e6e1c1;
+    border-radius: 10%;
+    margin: 1% auto;
+    align-items: center;
+        /* background-color: #0a2c1b; */
+        border: 70px solid #0a2c1b;
+        margin: 9% auto;
+}
+.container.form h2{ 
+    text-align: center;
+    color: chocolate;
+    font-size: 50px;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+
+.contact-form table {
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+    background-color: #0a2c1b;
+    color: chocolate;
+}
+
+.form-label{
+    color:chocolate;
+}
+.form-content{
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #0a2c1be0;
+    color: chocolate;
+    border-radius: 10%;
+}
+.form-content tr{
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #0a2c1be0;
+    color: chocolate;
+    border-radius: 10%;
+}
+
+/* sticky food and drink button */
+.sticky-buttons{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+.sticky-buttons :hover{
+    display: inline-block;
+    justify-content: center;
+}
+
+.stickyfood-btn{
+    width: 92px;
+    font-size: smaller;
+    border-radius: 393px 360px 0 0;
+    padding: 6px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color: #0a2c1b;
+    transition: 0.3s;
+    }
+
+   
+
+    
+.stickyfood-btn:hover{
+    background-color: #e6e1c1;
+    color: #0A2C1B;
+    font-size: smaller;
+    border-radius:0px 0px 369px 369px;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.stickydrinks-btn{
+    width: 92px;
+    font-size: smaller;
+    padding: 2px;
+    color: #e6e1c1;
+    border: 2px solid #e6e1c1;
+    background-color:#0a2c1b;
+    transition: 0.3s;
+    }
+    
+    
+    .stickydrinks-btn:hover{
+        background-color: #e6e1c1;
+        color: #0A2C1B;
+        font-size: smaller;
+        transition: 0.3s;
+        padding:5px;
+        border-radius: 369px;
+        padding: 5px;
+    }
+
+    .stickycontact-btn{
+        width: 92px;
+        font-size: smaller;
+        border-radius: 0 0 393px 360px;
+        padding: 6px;
+        color: #e6e1c1;
+        border: 2px solid #e6e1c1;
+        background-color: #0a2c1b;
+        transition: 0.3s;
+        }
+        
+    .stickycontact-btn:hover{
+        background-color: #e6e1c1;
+        color: #0A2C1B;
+        font-size: smaller;
+        border-radius: 369px 369px 0px 0px;
+        transition: 0.3s;
+        padding: 5px;
+    }
+
+
+                                                        /* Contact Page */
+    #contact-us-body{
+    background-color: #0A2C1B;
+    } 
+.col-md-6.contact-form {
+    border: #faebd700;
+    box-shadow: none;
+    color: chocolate;
+}
+
+#contact-food{
+    background-image: url("bbq.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    padding: 13%;
+    
+}
+.contact-form .form-control{
+    border-bottom: 2px solid chocolate;
+}
+
+
+#contact-drinks {
+    background-image: url("beer.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    padding: 13%;
+}
+
+#navbar.contact-nav{
+    position: relative;
+}
+
+.contact-form{
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
